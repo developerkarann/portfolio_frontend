@@ -2,7 +2,14 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Navbar() {
- 
+  
+  const burger = ()=>{
+    const menu = document.querySelector('.menu');
+    const i = document.querySelector('.fa-bars');
+    menu.classList.toggle('active');
+    i.classList.toggle('active');
+  }
+
   return (
     <>
        <nav className="navbar">
@@ -18,7 +25,7 @@ export default function Navbar() {
           <li><Link to="/contact" className="menu-btn">Contact</Link></li>
         </ul>
         <div className="menu-btn">
-          <i className="fas fa-bars"></i>
+          <i className="fas fa-bars" onClick={burger}> </i>
         </div>
       </div>
     </nav>
