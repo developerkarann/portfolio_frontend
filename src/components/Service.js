@@ -12,7 +12,7 @@ export default function Service() {
                 <i className="fas fa-paint-brush"></i>
                 <div className="text">Front-End</div>
                 <p>
-                  Creating user interface with react
+                  As a frontend developer, I have extensive knowledge and experience in creating visually appealing and functional user interfaces for websites and applications. I am skilled in using programming languages such as HTML, CSS, and JavaScript, as well as libraries like React.js to create interactive and responsive designs.
                 </p>
               </div>
             </div>
@@ -22,16 +22,16 @@ export default function Service() {
                 <i className="fa-solid fa-server"></i>
                 <div className="text">Back-end</div>
                 <p>
-                  working with servers and DBMS
+                  I have extensive knowledge and experience in creating the server-side logic of websites and applications. I am skilled in using programming languages such as PHP and JavaScript, as well as frameworks like Node.js.
                 </p>
               </div>
             </div>
-              
+
             <div className="card">
               <div className="box">
                 <i className="fas fa-code"></i>
-                <div className="text">Full Stack Development</div>
-                <p>Working with both front-end and back-end </p>
+                <div className="text">MERN Development</div>
+                <p>As a MERN stack developer, I have extensive knowledge and experience in building full-stack web applications using the MERN technology stack, which includes MongoDB, Express.js, React, and Node.js. </p>
               </div>
             </div>
           </div>
