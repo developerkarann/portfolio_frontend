@@ -1,16 +1,16 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
+import profile from '../img/profile.JPG'
 
 export default function About() {
   return (
     <>
-    
     <section className="about" id="about">
       <div className="max-width">
         <h2 className="title">About Me</h2>
         <div className="about-content">
           <div className="column left">
-            <img src="../src/img/logo.png" alt="" />
+            <img src={profile}alt="" />
           </div>
           <div className="column right">
             <div className="text">

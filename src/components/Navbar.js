@@ -22,6 +22,7 @@ export default function Navbar() {
           <li><Link to="/about" className="menu-btn">About</Link></li>
           <li><Link to="/service" className="menu-btn">Service</Link></li>
           <li><Link to="/skills" className="menu-btn">Skills</Link></li>
+          <li><Link to="/projects" className="menu-btn">Projects</Link></li>
           <li><Link to="/contact" className="menu-btn">Contact</Link></li>
         </ul>
         <div className="menu-btn">

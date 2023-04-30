@@ -201,7 +201,7 @@ section .title::before {
     position: absolute;
     bottom: 0px;
     left: 50%;
-    width: 180px;
+    width: 200px;
     height: 3px;
     background: black;
     transform: translateX(-50%);
@@ -305,6 +305,7 @@ section .title::after {
     padding: 20px 25px;
     transition: all 0.3s ease;
     cursor: pointer;
+    height: 200px;
 }
 
 .services .serv-content .card i {
@@ -591,6 +592,91 @@ footer span a:hover {
     opacity: 1;
 }
 
+
+/* Project Section Styling  */
+
+.projects{
+    background: black;
+    color: white;
+    height: 1070px;
+
+}
+
+.projects .title::before {
+    background: white;
+}
+
+.projects .title::after {
+    background: black;
+    content: "What i have done!";
+}
+
+.projects .project-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+    margin-bottom: 70px;
+}
+
+.projects .project-content .card {
+    margin: 0 10px;
+    /* margin-top: 20px; */
+    /* width: calc(43% - 20px); */
+    width: 600px;
+    /* min-width: 500px; */
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 15px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    height: 400px;
+}
+
+.projects .project-content .card img {
+    width: 500px;
+}
+
+.projects .project-content .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.projects .project-content .card .box {
+    transition: all 0.3s ease;
+}
+
+.projects .project-content .card .box .live-demo {
+    margin-top: 25px;
+}
+
+.projects .project-content .card .box .btn {
+    background-color: red;
+    border-radius: 2px;
+    padding: 10px 210px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.projects .project-content .card:hover .box {
+    transform: scale(1.05);
+}
+
+.projects .project-content .card:hover {
+    background-color: red;
+}
+
+.projects .project-content .card:hover i {
+    color: white;
+}
+
+.projects .project-content .card:hover .btn {
+    background: #222;
+    color: red;
+}
+
 /* Responsive Media Query */
 
 @media (max-width: 1300px) {
@@ -599,16 +685,42 @@ footer span a:hover {
     }
 }
 
+@media (max-width: 1500px) {
+    .projects .project-content .card img {
+        width: 450px;
+    }
+
+   
+}
+
 @media (max-width: 1100px) {
     .about .about-content .left img {
         height: 350px;
         width: 350px;
+    }
+    .projects {
+        height: 1870px;
+    }
+
+    .projects .project-content {
+        display: inline-block;
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+
+    .projects .project-content .card {
+        margin-left: 120px;
+        margin-bottom: 30px;
     }
 }
 
 @media (max-width: 991px) {
     .max-width {
         padding: 0 50px;
+    }
+
+    .projects .project-content .card {
+        margin-left: 50px;
     }
 }
 
@@ -629,7 +741,7 @@ footer span a:hover {
     .navbar .menu {
         position: fixed;
         height: 100vh;
-        width: 100%;
+        width: 50%;
         left: -100%;
         top: 0;
         background: black;
@@ -690,6 +802,18 @@ footer span a:hover {
     }
 }
 
+@media (max-width: 730px) {
+
+    .projects .project-content .card {
+        margin-left: 30px;
+        width: 400;
+    }
+
+    .projects .project-content .card img {
+        width: 480px;
+    }
+}
+
 @media (max-width: 690px) {
     .max-width {
         padding: 0 23px;
@@ -715,6 +839,37 @@ footer span a:hover {
     .about .about-content .left img {
         height: 400px;
     }
+
+    .projects .project-content .card {
+        margin-left: 30px;
+        width: 500px;
+    }
+
+    .projects .project-content .card img {
+        width: 450px;
+    }
+
+    .projects .project-content .card .box .btn {
+        padding: 10px 100px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 580px) {
+    .projects .project-content .card {
+        margin-left: 10px;
+        width: 430px;
+        height: 370px;
+    }
+
+    .projects .project-content .card img {
+        width: 400px;
+    }
+
+    .projects .project-content .card .box .btn {
+        padding: 10px 100px;
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -728,6 +883,16 @@ footer span a:hover {
 
     .about .about-content .right .text {
         height: 70px;
+    }
+
+    .projects .project-content .card {
+        margin-left: 10px;
+        width: 400px;
+        height: 370px;
+    }
+
+    .projects .project-content .card img {
+        width: 370px;
     }
 }
 
@@ -745,4 +910,16 @@ footer span a:hover {
     .scroll-up-btn i {
         margin-left: 6px;
     }
+
+    .projects .project-content .card {
+        margin-left: 10px;
+        width: 340px;
+        height: 340px;
+        margin-top: 10px;
+    }
+
+    .projects .project-content .card img {
+        width: 300px;
+    }
+
 }
