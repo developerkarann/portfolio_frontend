@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import { useNavigate} from 'react-router-dom'
-
+// import { useNavigate} from 'react-router-dom'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Contact() {
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const [inpval, setInp] = useState({
     name: "",
@@ -28,9 +29,9 @@ export default function Contact() {
   const addInpData = async (e) => {
     e.preventDefault();
 
-    const { name, email, subject, description} = inpval;
-    // const response = await fetch('http://localhost:5000/api/contact', {
-    const response = await fetch('https://portfolio-6a26.onrender.com/api/contact', {
+    const { name, email, subject, description } = inpval;
+    const response = await fetch('http://localhost:5000/api/contact', {
+    // const response = await fetch('https://portfolio-6a26.onrender.com/api/contact', {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -47,9 +48,14 @@ export default function Contact() {
       alert("Error")
       console.log("Error")
     } else {
-      navigate('/')
+      // navigate('/')
       // alert("Data Added")
-      console.log("Data Added")
+      // console.log("Data Added")
+      setInp({...inpval, name: "",email: "", subject: "", description: ""})
+      toast.success("Message send successfully ❤", {
+        position: "top-center",
+        autoClose: 5000,
+      })
     }
   }
 
@@ -93,22 +99,22 @@ export default function Contact() {
               <form>
                 <div className="fields">
                   <div className="field name">
-                    <input type="text" value={inpval.name}  onChange={setData} placeholder="Name" name="name" />
+                    <input type="text" value={inpval.name} onChange={setData} placeholder="Name" name="name" />
                   </div>
                   <div className="field email">
-                    <input type="email" value={inpval.email}  onChange={setData} placeholder="E-mail" name="email" />
+                    <input type="email" value={inpval.email} onChange={setData} placeholder="E-mail" name="email" />
                   </div>
                 </div>
                 <div className="field sub">
-                  <input type="text" value={inpval.subject}  onChange={setData} placeholder="Subject" name="subject" />
+                  <input type="text" value={inpval.subject} onChange={setData} placeholder="Subject" name="subject" />
                 </div>
                 <div className="field textarea">
                   <textarea
                     cols="30"
                     rows="10"
-                    placeholder="Describe Project..."
+                    placeholder="Description..."
                     name="description"
-                    value={inpval.description} 
+                    value={inpval.description}
                     required
                     onChange={setData}
                   ></textarea>
@@ -118,6 +124,7 @@ export default function Contact() {
                 </div>
               </form>
             </div>
+            <ToastContainer />
           </div>
         </div>
       </section>
