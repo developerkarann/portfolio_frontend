@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Typewriter } from 'react-simple-typewriter'
 
 export default function Navbar() {
   
@@ -15,7 +16,17 @@ export default function Navbar() {
        <nav className="navbar">
       <div className="max-width">
         <div className="logo" id="">
-          <Link to="/"> Portfo<span>lio.</span> </Link>
+          <Link to="/"> 
+          <Typewriter
+                words={['Karan Pal.',]}
+                loop={5}
+                cursor
+                cursorStyle='_'
+                typeSpeed={100}
+                deleteSpeed={80}
+                delaySpeed={2000}
+              />
+          <span> </span> </Link>
         </div>
         <ul className="menu">
           <li><Link to="/" className="menu-btn">Home</Link></li>

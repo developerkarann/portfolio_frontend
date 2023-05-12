@@ -756,10 +756,10 @@ footer span a:hover {
     .navbar .menu {
         position: fixed;
         height: 100vh;
-        width: 50%;
+        width: 65%;
         left: -100%;
         top: 0;
-        background: black;
+        background: red;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
@@ -771,6 +771,7 @@ footer span a:hover {
 
     .navbar .menu li {
         display: block;
+        /* font-size: 19px; */
     }
 
     .navbar .menu li a {
@@ -814,6 +815,9 @@ footer span a:hover {
     .contact .contact-content .column {
         width: 100%;
         margin-bottom: 25px;
+    }
+    .navbar .logo {
+        z-index: 999;
     }
 }
 
