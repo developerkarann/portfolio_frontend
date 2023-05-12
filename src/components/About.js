@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
-import profile from '../img/profile.JPG'
+import profile from '../img/picture.jpg'
 
 export default function About() {
   return (
