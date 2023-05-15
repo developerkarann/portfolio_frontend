@@ -5,8 +5,8 @@ export default function Footer() {
     <>
       <footer>
       <span
-        >Created By <a href="/">Karan Pal  </a>
-        <span className="far fa-copyright"> </span> 2023 All rights reserved.
+        >Created with ❤ By <a href="/">Karan Pal </a>
+        <span className="far fa-copyright"> </span> 
       </span>
     </footer>
     </>
