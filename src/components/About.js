@@ -40,7 +40,7 @@ export default function About() {
                 project is completed on time and to the highest standards.
 
               </p>
-              <a href="/Resume.pdf" download="">Download Resume</a>
+              <a href="/https://drive.google.com/file/d/14d2k17F83G5u5zj4LZlGuxSGv6IySgwV/view?usp=share_link" download="">Download CV</a>
             </div>
           </div>
         </div>
