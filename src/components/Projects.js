@@ -66,7 +66,7 @@ export default function Projects() {
                                     Tech used - <i>HTML, CSS, JavaScript, Bootstrap</i>
                                 </p>
                                 <div className='live-demo'>
-                                    <Link to='https://coderkrn.github.io/notes/' target='_blank' className='btn'>Live Demo</Link>
+                                    <Link to='https://karanpal03040.github.io/notes/' target='_blank' className='btn'>Live Demo</Link>
                                 </div>
                             </div>
                         </div>
@@ -82,7 +82,7 @@ export default function Projects() {
                                     Tech used - <i>HTML, CSS, JavaScript</i>
                                 </p>
                                 <div className='live-demo'>
-                                    <Link to='https://coderkrn.github.io/myspotify/' target='_blank' className='btn'>Live Demo</Link>
+                                    <Link to='https://karanpal03040.github.io/myspotify/' target='_blank' className='btn'>Live Demo</Link>
                                 </div>
                             </div>
                         </div>
