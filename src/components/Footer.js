@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <footer>
       <span
-        >Created with ❤ By <a href="/">Karan Pal </a>
+        >Created with ❤ By <a href="https://www.linkedin.com/in/karan-pal-developer/" target='_blank'>Karan Pal </a>
         {/* <span className="far fa-copyright"> </span>  */}
       </span>
     </footer>
