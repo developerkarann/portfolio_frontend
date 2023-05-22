@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 export default function Contact() {
 
   // const navigate = useNavigate();
@@ -92,6 +93,12 @@ export default function Contact() {
                     <div className="sub-title">karanpal03040@gmail.com</div>
                   </div>
                 </div>
+                <div className="row">
+                  <a href="https://www.linkedin.com/in/karan-pal-developer/" rel="noreferrer" target='_blank' style={{marginRight: "25px"}}><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://github.com/karanpal03040" target='_blank' rel="noreferrer" style={{marginRight: "25px"}}><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/karan_sanatanii/" target='_blank' rel="noreferrer" style={{marginRight: "25px"}}><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                
               </div>
             </div>
             <div className="column right">

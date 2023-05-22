@@ -1001,8 +1001,15 @@ footer span a:hover {
     }
     
     .projects .title::after {
-       
         font-size: 18px;
     }
+    .skills .skills-content .right .lines {
+        height: 5px;
+        width: 55%;
+    }
+    .skills .skills-content .right span {
+        font-size: 16px;
+    }
+    
 
 }
