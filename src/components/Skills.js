@@ -1,4 +1,13 @@
 import React from 'react'
+import html from '../img/icon/html.png'
+import css from '../img/icon/css.png'
+import javascript from '../img/icon/javascript.png'
+import react from '../img/icon/react.png'
+import node from '../img/icon/node.png'
+import express from '../img/icon/express.png'
+import mongodb from '../img/icon/mongodb.png'
+import github from '../img/icon/github.png'
+import php from '../img/icon/php.png'
 
 export default function Skills() {
     return (
@@ -42,66 +51,66 @@ export default function Skills() {
                             <div className="bars">
                                 <div className="info">
                                     <span>HTML</span>
-                                    <span>90%</span>
+                                    <div className="lines html inner_line" ></div>
+                                    <span><img width="60" height="60" src={html} alt="html-5--v1" /></span>
                                 </div>
-                                <div className="lines html"></div>
                             </div>
                             <div className="bars">
                                 <div className="info">
                                     <span>CSS</span>
-                                    <span>75%</span>
+                                    <div className="lines css inner_line"></div>
+                                    <span><img width="60" height="60" src={css} alt="css3" /></span>
                                 </div>
-                                <div className="lines css"></div>
                             </div>
                             <div className="bars">
                                 <div className="info">
                                     <span>JavaScript</span>
-                                    <span>70%</span>
+                                    <div className="lines javascript inner_line"></div>
+                                    <span><img width="60" height="60" src={javascript} alt="javascript--v1" /></span>
                                 </div>
-                                <div className="lines javascript"></div>
                             </div>
                             <div className="bars">
                                 <div className="info">
                                     <span>React.js</span>
-                                    <span>75%</span>
+                                    <div className="lines React inner_line"></div>
+                                    <span><img width="50" height="50" src={react} alt="react" /></span>
                                 </div>
-                                <div className="lines php"></div>
                             </div>
                             <div className="bars">
                                 <div className="info">
                                     <span>Node.js</span>
-                                    <span>80%</span>
+                                    <div className="lines Node inner_line"></div>
+                                    <span><img src={node} width="60" alt="javascript nodejs logo" /></span>
                                 </div>
-                                <div className="lines mysql"></div>
                             </div>
 
                             <div className="bars">
                                 <div className="info">
                                     <span>Express.js</span>
-                                    <span>80%</span>
+                                    <div className="lines Express inner_line"></div>
+                                    <span><img src={express} width="60" alt="javascript nodejs logo" /></span>
                                 </div>
-                                <div className="lines Bootstrap"></div>
                             </div>
                             <div className="bars">
                                 <div className="info">
                                     <span>MongoDB</span>
-                                    <span>90%</span>
+                                    <div className="lines MongoDB inner_line"></div>
+                                    <span><img width="60" height="60" src={mongodb} alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo" /></span>
                                 </div>
-                                <div className="lines photoshop"></div>
                             </div>
                             <div className="bars">
                                 <div className="info">
                                     <span>Github & Git</span>
-                                    <span>80%</span>
+                                    <div className="lines Github inner_line"></div>
+                                    <span><img width="50" height="50" src={github} alt="github" /></span>
                                 </div>
-                                <div className="lines photoshop"></div>
                             </div>
                             <div className="bars">
                                 <div className="info">
                                     <span>PHP & MySql</span>
-                                    <span>65%</span>
+                                    <div className="lines PHP inner_line"></div>
+                                    <span><img src={php}  width="" alt="php custom programming solutions" /></span>
                                 </div>
-                                <div className="lines photoshop"></div>
                             </div>
                         </div>
                     </div>

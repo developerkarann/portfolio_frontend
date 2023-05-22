@@ -402,7 +402,7 @@ section .title::after {
 }
 
 .skills .skills-content .right .html::before {
-  width: 90%;
+  width: 1%;
 }
 
 .skills .skills-content .right .css::before {
