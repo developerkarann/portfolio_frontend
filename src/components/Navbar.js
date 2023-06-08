@@ -16,7 +16,7 @@ export default function Navbar() {
        <nav className="navbar">
       <div className="max-width">
         <div className="logo" id="">
-          <Link to="/"> Karan Pal <span> </span> </Link>
+          <Link to="/"> Karan Developer <span> </span> </Link>
         </div>
         <ul className="menu">
           <li onClick={burger}><Link to="/" className="menu-btn">Home</Link></li>
