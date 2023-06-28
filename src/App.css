@@ -88,7 +88,7 @@ html {
 /* Home Section Syling styling */
 .home {
     display: flex;
-    background: url(../src/img/banner0.jpg) no-repeat center;
+    background: url(../src/img/background.jpg) no-repeat center;
     height: 100vh;
     color: white;
     min-height: 500px;
@@ -99,6 +99,10 @@ html {
     margin: auto 0 auto 40px;
 }
 
+.home .home-content .text {
+    font-size: 20px;
+    margin-top: 10px;
+}
 .home .home-content .text-1 {
     font-size: 27px;
 }

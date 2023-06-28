@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <Navbar></Navbar>
+        <Navbar></Navbar>
         <Routes>
           <Route exact path='/' element={<Home></Home>}></Route>
           <Route exact path='about' element={<About></About>}></Route>
