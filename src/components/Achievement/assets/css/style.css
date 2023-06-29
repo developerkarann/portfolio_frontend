@@ -1,0 +1,96 @@
+
+.container {
+    padding-top: 200px;
+    background: black;
+}
+.heading h1{
+   color: white;
+   left: 41%;
+   position: absolute;
+   margin-top: 120px;
+   padding-bottom: 20px;
+   font-family: "Ubuntu", sans-serif;
+}
+.heading .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 280px;
+    height: 3px;
+    background: white;
+    transform: translateX(-50%);
+}
+
+.heading .title::after {
+    content: 'What I Earned ';
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    height: 3px;
+    width: 128px;
+    background: black;
+    font-size: 19px;
+    color: red;
+    padding: 5px 10px 11px 10px;
+    transform: translateX(-50%);
+}
+
+#image {
+    width: 450px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.icon {
+    background: red;
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 7px;
+}
+
+@media (max-width: 1150px) {
+    .icon {
+        padding-left: 13px;
+        font-size: 20px;
+    }
+
+    #image {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 800px) {
+    #image {
+        width: 350px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 700px) {
+    #image {
+        width: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    #image {
+        width: 300px;
+        margin-left: -33px;
+    }
+    .heading h1{
+        left: 28%;
+     }
+}
+
+@media (max-width: 500px) {
+    #image {
+        width: 230px;
+    }
+    .heading h1{
+        left: 20%;
+     }
+}
+
+
