@@ -77,7 +77,7 @@
 @media (max-width: 600px) {
     #image {
         width: 300px;
-        margin-left: -33px;
+        /* margin-left: -33px; */
     }
     .heading h1{
         left: 28%;
