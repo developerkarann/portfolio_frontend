@@ -37,7 +37,7 @@ export default function Contact() {
     const { name, email, subject, description } = inpval;
 
     // const response = await fetch('http://localhost:5000/api/contact', {
-      const response = await fetch('https://portfolio-backend-ten-black.vercel.app/', {
+      const response = await fetch('https://portfolio-backend-ten-black.vercel.app/api/contact', {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -54,14 +54,13 @@ export default function Contact() {
       toast.warning("Please fill all the fields", {
         position: "top-center",
         autoClose: 5000,
-        isLoading: false,
+   
       })
     } else {
       setInp({ ...inpval, name: "", email: "", subject: "", description: "" })
-      toast.success("Message send successfully ❤", {
+      toast.success("Thank You ❤ ", {
         position: "top-center",
         autoClose: 5000,
-        isLoading: false,
       })
     }
   }
