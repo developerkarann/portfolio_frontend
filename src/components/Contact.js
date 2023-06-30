@@ -30,10 +30,14 @@ export default function Contact() {
   const addInpData = async (e) => {
     e.preventDefault();
 
+    // toast.loading("Please wait!", {
+    //   position: "top-center",
+    // })
+
     const { name, email, subject, description } = inpval;
-    // const response = await fetch('http://localhost:5000/api/contact', {
-    // const response = await fetch('https://portfolio-6a26.onrender.com/api/contact', {
-    const response = await fetch('https://portfolio-backend-ten-black.vercel.app/', {
+
+    const response = await fetch('http://localhost:5000/api/contact', {
+      // const response = await fetch('https://portfolio-backend-ten-black.vercel.app/', {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -47,16 +51,17 @@ export default function Contact() {
     console.log(response)
 
     if (response.status === 404 || !data) {
-      alert("Error")
-      console.log("Error")
+      toast.warning("Please fill all the fields", {
+        position: "top-center",
+        autoClose: 5000,
+        isLoading: false,
+      })
     } else {
-      // navigate('/')
-      // alert("Data Added")
-      // console.log("Data Added")
-      setInp({...inpval, name: "",email: "", subject: "", description: ""})
+      setInp({ ...inpval, name: "", email: "", subject: "", description: "" })
       toast.success("Message send successfully ❤", {
         position: "top-center",
         autoClose: 5000,
+        isLoading: false,
       })
     }
   }
@@ -95,11 +100,11 @@ export default function Contact() {
                   </div>
                 </div>
                 <div className="row">
-                  <a href="https://www.linkedin.com/in/karan-pal-developer/" rel="noreferrer" target='_blank' style={{marginRight: "25px"}}><i class="fa-brands fa-linkedin"></i></a>
-                  <a href="https://github.com/karanpal03040" target='_blank' rel="noreferrer" style={{marginRight: "25px"}}><i class="fa-brands fa-github"></i></a>
-                  <a href="https://www.instagram.com/karan_sanatanii/" target='_blank' rel="noreferrer" style={{marginRight: "25px"}}><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/karan-pal-developer/" rel="noreferrer" target='_blank' style={{ marginRight: "25px" }}><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://github.com/karanpal03040" target='_blank' rel="noreferrer" style={{ marginRight: "25px" }}><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/karan_sanatanii/" target='_blank' rel="noreferrer" style={{ marginRight: "25px" }}><i class="fa-brands fa-instagram"></i></a>
                 </div>
-                
+
               </div>
             </div>
             <div className="column right">
