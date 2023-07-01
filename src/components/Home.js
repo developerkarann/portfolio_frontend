@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Typewriter } from 'react-simple-typewriter'
 
+
 export default function Home() {
 
 
@@ -27,6 +28,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
     </>
   )
 }

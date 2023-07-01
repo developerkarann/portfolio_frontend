@@ -54,11 +54,10 @@ export default function Contact() {
       toast.warning("Please fill all the fields", {
         position: "top-center",
         autoClose: 5000,
-   
       })
     } else {
       setInp({ ...inpval, name: "", email: "", subject: "", description: "" })
-      toast.success("Thank You ❤ ", {
+      toast.success("Message send - Thank You ❤ ", {
         position: "top-center",
         autoClose: 5000,
       })
