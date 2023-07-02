@@ -30,14 +30,11 @@ export default function Contact() {
   const addInpData = async (e) => {
     e.preventDefault();
 
-    // toast.loading("Please wait!", {
-    //   position: "top-center",
-    // })
 
     const { name, email, subject, description } = inpval;
 
     // const response = await fetch('http://localhost:5000/api/contact', {
-      const response = await fetch('https://portfolio-backend-ten-black.vercel.app/api/contact', {
+      const response = await fetch('https://portfolio-backend-nu-five.vercel.app/api/contact', {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
