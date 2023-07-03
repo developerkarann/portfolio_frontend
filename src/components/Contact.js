@@ -30,6 +30,7 @@ export default function Contact() {
   const addInpData = async (e) => {
     e.preventDefault();
 
+    toast("Please wait...", { toastId: "fetchResponse", autoClose: false });
 
     const { name, email, subject, description } = inpval;
 
@@ -45,19 +46,21 @@ export default function Contact() {
     })
 
     const data = await response.json();
-    console.log(response)
+    // console.log(response)
 
-    if (response.status === 404 || !data) {
-      toast.warning("Please fill all the fields", {
-        position: "top-center",
-        autoClose: 5000,
-      })
+    if (response.status === 422 || !data) {
+      toast.update('fetchResponse', {
+        render: data.message,
+        type: 'error',
+        autoClose: 3000
+      });
     } else {
+      toast.update('fetchResponse', {
+        render: data.message,
+        type: 'success',
+        autoClose: 3000
+      });
       setInp({ ...inpval, name: "", email: "", subject: "", description: "" })
-      toast.success("Message send - Thank You ❤ ", {
-        position: "top-center",
-        autoClose: 5000,
-      })
     }
   }
 
@@ -132,7 +135,17 @@ export default function Contact() {
                 </div>
               </form>
             </div>
-            <ToastContainer />
+            <ToastContainer
+              position="top-right"
+              hideProgressBar={false}
+              newestOnTop={false}
+              closeOnClick={true}
+              rtl={false}
+              pauseOnFocusLoss={true}
+              draggable={false}
+              pauseOnHover={false}
+              theme="colored"
+            />
           </div>
         </div>
       </section>
