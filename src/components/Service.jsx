@@ -36,7 +36,7 @@ export default function Service() {
               <div className="box">
                 {/* <i className="fas fa-code"></i> */}
                 <img src={image3} alt="" />
-                <div className="text">MERN Development</div>
+                <div className="text">Full Stack Development</div>
                 <p>As a MERN stack developer, I have extensive knowledge and experience in building full-stack web applications using the MERN technology stack, which includes MongoDB, Express.js, React, and Node.js. </p>
               </div>
             </div>

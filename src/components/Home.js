@@ -2,6 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Typewriter } from 'react-simple-typewriter'
 
+import Service from './Service';
+import Skills from '../components/Skills';
+import About from '../components/About'
+import Contact from '../components/Contact'
+import Projects from '../components/Projects';
+
 
 export default function Home() {
 
@@ -11,8 +17,7 @@ export default function Home() {
       <section className="home" id="home">
         <div className="max-width">
           <div className="home-content">
-            <div className="text-1">Hello ,</div>
-            <div className="text">my name is</div>
+            <div className="text-1">Hello , my self</div>
             <div className="text-2">Karan Pal</div>
             <div className="text-3">And I'm a <Typewriter
               words={['JavaScript Developer', 'MERN Stack Developer', 'React Developer', 'Node Developer']}
@@ -28,6 +33,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <About/>
+      <Service/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
       
     </>
   )

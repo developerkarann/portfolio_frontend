@@ -8,7 +8,12 @@ import mongodb_certificate from '../assets/img/certificates/mongodb_certificate.
 import computer_certificate from '../assets/img/certificates/computer_certificate.jpg'
 import accounting_certificate from '../assets/img/certificates/accounting_certificate.jpg'
 
-//Icons 
+//Projects Images
+// import spotify from '../img/projects/spotify.png'
+// import notesImg from '../img/projectsnotes.png'
+// import FavFood from '../img/projects/FavFood.png'
+// import crudImg from '../img/projects/CRUD.png'
+// import MyFileSharing from '../img/projects/MyFileSharing.png' 
 
 
 const Certifiaction = [
@@ -90,6 +95,44 @@ const Certifiaction = [
         icon: "8",
 
     },
+];
+
+
+
+const projects = [
+    {
+        title: 'FavFood - E-Commerce Food App',
+        tech: 'Tech used - <i>MERN Stack</i> ',
+        description: '',
+        img: ' ',
+    },
+    {
+        title: 'MyFileSharing - File Sharing Application',
+        tech: ' Tech used - <i>MERN Stack, Bootstrap</i> ',
+        description: '',
+        img: ' ',
+    },
+    {
+        title: 'MyFileSharing - File Sharing Application',
+        tech: 'Tech used - <i>MERN Stack</i> ',
+        description: '',
+        img: ' ',
+    },
+    {
+        title: 'Magic Notes - Notes Taking App',
+        tech: '  Tech used - <i>HTML, CSS, JavaScript, Bootstrap</i>',
+        description: '',
+        img: ' ',
+    },
+    {
+        title: 'MySpotify - Music Streaming App',
+        tech: ' Tech used - <i>HTML, CSS, JavaScript</i> ',
+        description: ' ',
+        img: ' ',
+    },
 ]
 
-export {Certifiaction}
+
+
+
+export { Certifiaction, }

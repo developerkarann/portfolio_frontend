@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    line-height: normal !important;
 }
 
 html {
@@ -225,6 +226,7 @@ section .title::after {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
+    height: 70px;
 }
 
 .about .about-content .right .text span {
@@ -673,11 +675,12 @@ footer span a:hover {
     padding: 20px 15px;
     transition: all 0.3s ease;
     cursor: pointer;
-    height: 400px;
+    height: 365px;
+    color: white;
 }
 
 .projects .project-content .card img {
-    width: 500px;
+    width: 550px !important;
 }
 
 .projects .project-content .card .text {
