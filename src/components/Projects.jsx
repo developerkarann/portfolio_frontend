@@ -13,7 +13,7 @@ export default function Projects() {
                     <h2 className="title">My Projects</h2>
                     <div className="project-content">
                         <div className="card">
-                            <Link to='https://favfoodie.netlify.app/' style={{color: 'white'}} target='_blank'>
+                            <Link to='https://favfoodie.netlify.app/'  rel="noreferrer" style={{color: 'white'}} target='_blank'>
                                 <div className="box">
                                     {/* <i className="fas fa-paint-brush"></i> */}
                                     <img alt='' src={FavFood} />
@@ -28,7 +28,7 @@ export default function Projects() {
 
                         </div>
                         <div className="card">
-                            <Link to='https://myfilesharing.netlify.app/' style={{color: 'white'}}  target='_blank'>
+                            <Link to='https://myfilesharing.netlify.app/'  rel="noreferrer" style={{color: 'white'}}  target='_blank'>
                                 <div className="box">
                                     {/* <i className="fas fa-paint-brush"></i> */}
                                     <img alt='' src={MyFileSharing} />
@@ -48,7 +48,7 @@ export default function Projects() {
                     <div className="project-content">
 
                         <div className="card">
-                            <Link to='https://crudio.netlify.app/' style={{color: 'white'}}  target='_blank'>
+                            <Link to='https://crudio.netlify.app/'  rel="noreferrer" style={{color: 'white'}}  target='_blank'>
                                 <div className="box">
                                     {/* <i className="fas fa-paint-brush"></i> */}
                                     <img alt='' src={crudImg} />
@@ -64,7 +64,7 @@ export default function Projects() {
                         </div>
 
                         <div className="card">
-                            <Link to='https://karanpal03040.github.io/notes/' style={{color: 'white'}}  target='_blank'>
+                            <Link to='https://karanpal03040.github.io/notes/'  rel="noreferrer" style={{color: 'white'}}  target='_blank'>
                                 <div className="box">
                                     {/* <i className="fas fa-paint-brush"></i> */}
                                     <img alt='' src={notesImg} />
@@ -81,7 +81,7 @@ export default function Projects() {
                     </div>
 
                     <div className="project-content">
-                        <Link to='https://karanpal03040.github.io/myspotify/'  target='_blank'>
+                        <Link to='https://karanpal03040.github.io/myspotify/'  rel="noreferrer" target='_blank'>
                             <div className="card">
                                 <div className="box">
                                     {/* <i className="fas fa-paint-brush"></i> */}
