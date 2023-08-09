@@ -89,21 +89,31 @@ html {
 /* Home Section Syling styling */
 .home {
     display: flex;
-    background: url(../src/img/background.jpg) no-repeat center;
+    background: url(../src/img/banner0.jpg) no-repeat center;
     height: 100vh;
     color: white;
     min-height: 500px;
     font-family: "Ubuntu", sans-serif;
 }
 
+.home .home_section {
+    display: flex;
+    margin-top: 70px;
+}
+
 .home .max-width {
     margin: auto 0 auto 40px;
+}
+
+.home .home-content {
+    width: 70vw;
 }
 
 .home .home-content .text {
     font-size: 20px;
     margin-top: 10px;
 }
+
 .home .home-content .text-1 {
     font-size: 27px;
 }
@@ -140,6 +150,13 @@ html {
     color: red;
     background: none;
 }
+
+.home .right_side .box img {
+    width: 300px;
+    border-radius: 56% 44% 54% 46% / 63% 70% 30% 37%;
+}
+
+
 
 /* All Similar Content Styling Code  */
 
@@ -304,7 +321,7 @@ section .title::after {
     font-size: 27px;
     font-weight: 600;
     margin: 10px 0 7px 0;
-    
+
 }
 
 .services .serv-content .card p {
@@ -375,6 +392,7 @@ section .title::after {
     align-items: center;
     justify-content: space-between;
 }
+
 .skills .skills-content .right .info img {
     animation: show 2.8s ease;
     /* visibility: hidden; */
@@ -406,75 +424,96 @@ section .title::after {
     width: 100%;
     animation: slider 2.5s linear;
 }
+
 @keyframes slider {
-    0%{
-       width: 1%; 
+    0% {
+        width: 1%;
     }
-    10%{
-       width: 10%; 
+
+    10% {
+        width: 10%;
     }
-    20%{
-       width: 20%; 
+
+    20% {
+        width: 20%;
     }
-    30%{
-       width: 30%; 
+
+    30% {
+        width: 30%;
     }
-    40%{
-       width: 40%; 
+
+    40% {
+        width: 40%;
     }
-    50%{
-       width: 50%; 
+
+    50% {
+        width: 50%;
     }
-    60%{
-       width: 60%; 
+
+    60% {
+        width: 60%;
     }
-    70%{
-       width: 70%; 
+
+    70% {
+        width: 70%;
     }
-    80%{
-       width: 80%; 
+
+    80% {
+        width: 80%;
     }
-    90%{
-       width: 90%; 
+
+    90% {
+        width: 90%;
     }
-    100%{
-       width: 100%; 
+
+    100% {
+        width: 100%;
     }
 }
 
 @keyframes show {
-    0%{
+    0% {
         visibility: hidden;
     }
-    10%{
+
+    10% {
         visibility: hidden;
-     }
-     20%{
+    }
+
+    20% {
         visibility: hidden;
-     }
-     30%{
+    }
+
+    30% {
         visibility: hidden;
-     }
-     40%{
+    }
+
+    40% {
         visibility: hidden;
-     }
-     50%{
+    }
+
+    50% {
         visibility: hidden;
-     
-     }
-     60%{
+
+    }
+
+    60% {
         visibility: hidden;
-     }
-     70%{
-        visibility: hidden; 
-     }
-     80%{
-        visibility: hidden; 
-     }
-     90%{
+    }
+
+    70% {
         visibility: hidden;
-     }
-    100%{
+    }
+
+    80% {
+        visibility: hidden;
+    }
+
+    90% {
+        visibility: hidden;
+    }
+
+    100% {
         visibility: visible;
     }
 }
@@ -752,6 +791,7 @@ footer span a:hover {
     .services {
         height: 2000px;
     }
+
     .home {
         height: 700px;
     }
@@ -776,8 +816,9 @@ footer span a:hover {
     .projects .project-content .card {
         margin-left: 50px;
     }
+
     .about .about-content .left img {
-        width: 400px;    
+        width: 400px;
         height: 700px;
     }
 }
@@ -859,6 +900,7 @@ footer span a:hover {
         width: 100%;
         margin-bottom: 25px;
     }
+
     .navbar .logo {
         z-index: 999;
     }
@@ -915,9 +957,18 @@ footer span a:hover {
         padding: 10px 100px;
         font-size: 20px;
     }
+
     .about .about-content .left img {
-        width: 400px;    
+        width: 400px;
         height: 650px;
+    }
+
+    .home .right_side .box img {
+        display: none;
+    }
+
+    .home .home-content {
+        width: 100vw;
     }
 }
 
@@ -936,7 +987,7 @@ footer span a:hover {
         padding: 10px 100px;
         font-size: 20px;
     }
-  
+
 }
 
 @media (max-width: 500px) {
@@ -958,7 +1009,7 @@ footer span a:hover {
         height: 370px;
     }
 
-    .projects .project-content .card .box  img {
+    .projects .project-content .card .box img {
         width: 370px !important;
     }
 }
@@ -988,17 +1039,19 @@ footer span a:hover {
     .projects .project-content .card .box img {
         width: 300px !important;
     }
-    
+
     .projects .title::after {
         font-size: 18px;
     }
+
     .skills .skills-content .right .lines {
         height: 5px;
         width: 55%;
     }
+
     .skills .skills-content .right span {
         font-size: 16px;
     }
-    
+
 
 }
