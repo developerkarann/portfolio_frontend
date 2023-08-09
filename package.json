@@ -20,12 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": {
-      "command": "npm run build",
-      "commandOrigin": "ui",
-      "publish": "/opt/build/repo/build",
-      "publishOrigin": "ui"
-    },
+    "build":"echo success",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
