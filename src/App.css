@@ -750,7 +750,7 @@ footer span a:hover {
     }
 
     .services {
-        height: 1500px;
+        height: 2000px;
     }
     .home {
         height: 700px;
@@ -907,8 +907,8 @@ footer span a:hover {
         width: 500px;
     }
 
-    .projects .project-content .card img {
-        width: 450px;
+    .projects .project-content .card .box img {
+        width: 450px !important;
     }
 
     .projects .project-content .card .box .btn {
@@ -928,8 +928,8 @@ footer span a:hover {
         height: 370px;
     }
 
-    .projects .project-content .card img {
-        width: 400px;
+    .projects .project-content .card .box img {
+        width: 400px !important;
     }
 
     .projects .project-content .card .box .btn {
@@ -958,8 +958,8 @@ footer span a:hover {
         height: 370px;
     }
 
-    .projects .project-content .card img {
-        width: 370px;
+    .projects .project-content .card .box  img {
+        width: 370px !important;
     }
 }
 
@@ -985,8 +985,8 @@ footer span a:hover {
         margin-top: 10px;
     }
 
-    .projects .project-content .card img {
-        width: 300px;
+    .projects .project-content .card .box img {
+        width: 300px !important;
     }
     
     .projects .title::after {
