@@ -89,7 +89,7 @@ html {
 /* Home Section Syling styling */
 .home {
     display: flex;
-    background: url(../src/img/banner0.jpg) no-repeat center;
+    background: url(/assets/images/banner0.jpg) no-repeat center;
     height: 100vh;
     color: white;
     min-height: 500px;

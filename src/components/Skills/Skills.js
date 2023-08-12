@@ -1,7 +1,6 @@
 export default function Skills() {
     return (
         <>
-
             <section className="skills" id="skills">
                 <div className="max-width">
                     <h2 className="title">My Skills</h2>
