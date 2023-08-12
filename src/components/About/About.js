@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
-import profile from '../img/picture.jpg'
+
 
 export default function About() {
   return (
@@ -10,7 +10,7 @@ export default function About() {
           <h2 className="title">About Me</h2>
           <div className="about-content">
             <div className="column left">
-              <img src={profile} alt="" />
+              <img src="/assets/images/picture.jpg" alt="" />
             </div>
             <div className="column right">
               <div className="text">

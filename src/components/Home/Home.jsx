@@ -2,12 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Typewriter } from 'react-simple-typewriter'
 
-import Service from './Service';
-import Skills from './Skills';
-import About from './About'
-import Contact from './Contact'
-import Projects from './Projects';
-import leftImg from '../img/krn.jpg'
+import Service from '../Service/Service';
+import Skills from '../Skills/Skills';
+import About from '../About/About'
+import Contact from '../Contact/Contact'
+import ProjectsSection from '../Projects/ProjectsSection';
+
 
 export default function Home() {
 
@@ -35,7 +35,7 @@ export default function Home() {
             <div className="right_side">
               <div className="box">
                 <div className="border"></div>
-                <img src={leftImg} alt="" />
+                <img src="/assets/images/krn.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -45,7 +45,7 @@ export default function Home() {
       <About />
       <Service />
       <Skills />
-      <Projects />
+      <ProjectsSection/>
       <Contact />
 
     </>

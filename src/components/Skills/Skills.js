@@ -1,13 +1,11 @@
-import React from 'react'
-import html from '../img/icon/html.png'
-import css from '../img/icon/css.png'
-import javascript from '../img/icon/javascript.png'
-import react from '../img/icon/react.png'
-import node from '../img/icon/node.png'
-import express from '../img/icon/express.png'
-import mongodb from '../img/icon/mongodb.png'
-import github from '../img/icon/github.png'
-import php from '../img/icon/php.png'
+// import React from 'react'
+// import html from '../img/icon/html.png'
+// import css from '../img/icon/css.png'
+// import javascript from '../img/icon/javascript.png'
+// import react from '../img/icon/react.png'
+// import node from '../img/icon/node.png'
+// import express from '../img/icon/express.png'
+// import mongodb from '../img/icon/mongodb.png'
 
 export default function Skills() {
     return (
@@ -39,48 +37,41 @@ export default function Skills() {
                                 web development and a willingness to learn and grow, I am confident that I will be an asset to
                                 any team or project.
                             </p>
-
-                            {/* <p className="certiInfo">
-                                And i have completed Web Development Training course and got a
-                                certificate from internshala trainings where i learned both
-                                front-end and back-end web technologies .
-                            </p> */}
-                            {/* <a rel="noreferrer" href="https://drive.google.com/file/d/1rKKISBzyMv7G6noNQNjHyu77llc-3oeW/view?usp=share_link" target="_blank">  Certificate <i className="fa-solid fa-award"></i></a> */}
                         </div>
                         <div className="column right">
                             <div className="bars">
                                 <div className="info">
                                     <span>HTML</span>
                                     <div className="lines html inner_line" ></div>
-                                    <span><img width="60" height="60" src={html} alt="html-5--v1" /></span>
+                                    <span><img width="60" height="60" src="/assets/images/icon/html.png" alt="html-5--v1" /></span>
                                 </div>
                             </div>
                             <div className="bars">
                                 <div className="info">
                                     <span>CSS</span>
                                     <div className="lines css inner_line"></div>
-                                    <span><img width="60" height="60" src={css} alt="css3" /></span>
+                                    <span><img width="60" height="60" src="/assets/images/icon/css.png" alt="css3" /></span>
                                 </div>
                             </div>
                             <div className="bars">
                                 <div className="info">
                                     <span>JavaScript</span>
                                     <div className="lines javascript inner_line"></div>
-                                    <span><img width="60" height="60" src={javascript} alt="javascript--v1" /></span>
+                                    <span><img width="60" height="60" src="/assets/images/icon/javascript.png" alt="javascript--v1" /></span>
                                 </div>
                             </div>
                             <div className="bars">
                                 <div className="info">
                                     <span>React.js</span>
                                     <div className="lines React inner_line"></div>
-                                    <span><img width="50" height="50" src={react} alt="react" /></span>
+                                    <span><img width="50" height="50" src="/assets/images/icon/react.png" alt="react" /></span>
                                 </div>
                             </div>
                             <div className="bars">
                                 <div className="info">
                                     <span>Node.js</span>
                                     <div className="lines Node inner_line"></div>
-                                    <span><img src={node} width="60" alt="javascript nodejs logo" /></span>
+                                    <span><img src="/assets/images/icon/node.png" width="60" alt="javascript nodejs logo" /></span>
                                 </div>
                             </div>
 
@@ -88,28 +79,28 @@ export default function Skills() {
                                 <div className="info">
                                     <span>Express.js</span>
                                     <div className="lines Express inner_line"></div>
-                                    <span><img src={express} width="60" alt="javascript nodejs logo" /></span>
+                                    <span><img src="/assets/images/icon/express.png" width="60" alt="javascript nodejs logo" /></span>
                                 </div>
                             </div>
                             <div className="bars">
                                 <div className="info">
                                     <span>MongoDB</span>
                                     <div className="lines MongoDB inner_line"></div>
-                                    <span><img width="60" height="60" src={mongodb} alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo" /></span>
+                                    <span><img width="60" height="60" src="/assets/images/icon/mongodb.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo" /></span>
                                 </div>
                             </div>
                             <div className="bars">
                                 <div className="info">
                                     <span>Github & Git</span>
                                     <div className="lines Github inner_line"></div>
-                                    <span><img width="50" height="50" src={github} alt="github" /></span>
+                                    <span><img width="50" height="50" src="/assets/images/icon/github.png" alt="github" /></span>
                                 </div>
                             </div>
                             <div className="bars">
                                 <div className="info">
                                     <span>PHP & MySql</span>
                                     <div className="lines PHP inner_line"></div>
-                                    <span><img src={php}  width="" alt="php custom programming solutions" /></span>
+                                    <span><img src="/assets/images/icon/php.png" width="" alt="php custom programming solutions" /></span>
                                 </div>
                             </div>
                         </div>
