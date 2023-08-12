@@ -1,12 +1,3 @@
-// import React from 'react'
-// import html from '../img/icon/html.png'
-// import css from '../img/icon/css.png'
-// import javascript from '../img/icon/javascript.png'
-// import react from '../img/icon/react.png'
-// import node from '../img/icon/node.png'
-// import express from '../img/icon/express.png'
-// import mongodb from '../img/icon/mongodb.png'
-
 export default function Skills() {
     return (
         <>
