@@ -30,7 +30,7 @@ export default function ProjectsSection() {
             github: 'https://github.com/karanpal03040/favfoodf_frontend',
         },
         {
-            title: 'Magic Notes - Notes Taking App',
+            title: 'Magic Notes',
             tech: ' React.js, Node.js, Express.js, MongoDb',
             description: '/assets/images/projects/notes.png',
             description: "Gyaanta! It's an education website that offers a wide range of courses and interactive learning experiences. Whether you're a student or just curious to learn new things, Gyaanta has you covered.",

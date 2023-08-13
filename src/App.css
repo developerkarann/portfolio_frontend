@@ -94,6 +94,7 @@ html {
     color: white;
     min-height: 500px;
     font-family: "Ubuntu", sans-serif;
+    overflow-y: hidden;
 }
 
 .home .home_section {
@@ -695,14 +696,6 @@ footer span a:hover {
 }
 
 @media (max-width: 1100px) {
-    /* .about .about-content .left img {
-        height: 350px;
-        width: 350px;
-    } */
-
-    .projects {
-        height: 2350px;
-    }
 
     .services {
         height: 2000px;
