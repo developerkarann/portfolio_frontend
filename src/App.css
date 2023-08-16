@@ -772,6 +772,9 @@ footer span a:hover {
         font: 25px;
     }
 
+    .home .home-content  {
+        max-width: 90vw;
+    }
     .home .home-content .text-2 {
         font-size: 70px;
     }
