@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 // import { Typewriter } from 'react-simple-typewriter'
+import './navbar.css'
 
 export default function Navbar() {
 
@@ -16,7 +17,7 @@ export default function Navbar() {
       <nav className="navbar">
         <div className="max-width">
           <div className="logo" id="">
-            <Link to="/"> Karan Developer <span> </span> </Link>
+            <Link to="/"> Karan Pal <span> </span> </Link>
           </div>
           <ul className="menu">
             <li onClick={burger}><Link to="/" className="menu-btn">Home</Link></li>
@@ -25,7 +26,7 @@ export default function Navbar() {
             <li onClick={burger}><Link to="/skills" className="menu-btn">Skills</Link></li>
             <li onClick={burger}><Link to="/projects" className="menu-btn">Projects</Link></li>
             <li onClick={burger}><Link to="/contact" className="menu-btn">Contact</Link></li>
-            <li onClick={burger}><Link to="/achievement" className="menu-btn">Achievement</Link></li>
+            <li onClick={burger}><Link to="/certifications" className="menu-btn">Certifications</Link></li>
           </ul>
           <div className="menu-btn">
             <i className="fas fa-bars" onClick={burger}> </i>

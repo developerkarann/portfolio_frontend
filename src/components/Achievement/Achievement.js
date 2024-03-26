@@ -9,22 +9,32 @@ export default function Certification() {
   const Certifiaction = [
     {
       index: '1',
+      title: 'Website Developer Lead Intern',
+      type: 'Internship certificate',
+      from: 'Baoiam Innovations Pvt. Ltd.',
+      date: 'September 2023',
+      img: "/assets/images/certificates/internship.jpg",
+      url: 'https://drive.google.com/file/d/1AKY033FgBbjaccVUerfB_jBJ-UMQY4_I/view?usp=sharing',
+      icon: "1",
+    },
+    {
+      index: '1',
       title: 'Web Development',
       type: 'Certification Course',
       from: 'InternShala Trainings',
       date: '09 January 2023',
       img: "/assets/images/certificates/webdevelopment.jpg",
       url: 'https://drive.google.com/file/d/1rKKISBzyMv7G6noNQNjHyu77llc-3oeW/view?usp=sharing',
-      icon: "1",
+      icon: "2",
     },
     {
-      title: 'Internship & Job Preparation Training',
+      title: 'TCS Carrier Edge Program',
       type: 'Certification Course',
-      from: 'InternShala Trainings',
+      from: 'Tata Consultancy Services Limited ',
       date: '2023-03-06',
-      img: "/assets/images/certificates/internship_job_certificate.jpg",
-      url: 'https://drive.google.com/file/d/16sIZte9NLKZ-o7pZGFHFxLhLKUNb1IJu/view?usp=sharing',
-      icon: "2",
+      img: "/assets/images/certificates/tcs.jpg",
+      url: 'https://drive.google.com/file/d/1DTr3vwFQb59mRq2srwg9C_NsRp3JUhDv/view?usp=sharing',
+      icon: "3",
     },
     {
       title: 'Basics Of Python',
@@ -33,7 +43,7 @@ export default function Certification() {
       date: 'March 2023',
       img: "/assets/images/certificates/python_certificate.jpg",
       url: 'https://drive.google.com/file/d/16PHh_nyPdpKkJ183OjblGOCSdj2E4DpA/view?usp=sharing',
-      icon: "3",
+      icon: "4",
     },
     {
       title: 'React.js JavaScript Library',
@@ -42,7 +52,7 @@ export default function Certification() {
       date: '2023',
       img: "/assets/images/certificates/reactjs_certificate.jpg",
       url: 'https://drive.google.com/file/d/1CuDdEhwnnWwCyxAiyVEMkmngItWcYWUR/view?usp=sharing',
-      icon: "4",
+      icon: "5",
 
     },
     {
@@ -52,7 +62,7 @@ export default function Certification() {
       date: '2023',
       img: "/assets/images/certificates/nodejs_certificate.jpg",
       url: 'https://drive.google.com/file/d/1Cu3n2jsCxnDFNX6s6Rt7Ro9GiB1N07k5/view?usp=sharing',
-      icon: "5",
+      icon: "6",
 
     },
     {
@@ -62,7 +72,7 @@ export default function Certification() {
       date: '2023',
       img: "/assets/images/certificates/mongodb_certificate.jpg",
       url: 'https://drive.google.com/file/d/1CocwNVc4vsELIiURp5mem4ZgA0qE0J3v/view?usp=sharing',
-      icon: "6",
+      icon: "7",
 
     },
     {
@@ -72,7 +82,7 @@ export default function Certification() {
       date: 'March 2021',
       img: "/assets/images/certificates/computer_certificate.jpg",
       url: 'https://drive.google.com/file/d/1CTiZmFW4Q1xJrP4zYng3R2UUYoEfFwY7/view?usp=sharing',
-      icon: "7",
+      icon: "8",
 
     },
     {
@@ -82,7 +92,7 @@ export default function Certification() {
       date: 'March 2021',
       img: "/assets/images/certificates/accounting_certificate.jpg",
       url: 'https://drive.google.com/file/d/1Voiywn98h7kbRYnJGMVXUbfTnEBPZ-Lz/view?usp=sharing',
-      icon: "8",
+      icon: "9",
 
     },
   ];

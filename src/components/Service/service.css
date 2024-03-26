@@ -1,0 +1,119 @@
+/* Service Section Styling */
+
+.services,
+.team {
+    background: black;
+    color: white;
+    height: 800px;
+}
+
+.services .title::before {
+    background: white;
+}
+
+.services .title::after {
+    background: black;
+    content: "What i provide";
+}
+
+.services .serv-content .card {
+    margin-top: 20px;
+    width: calc(34% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    height: 520px;
+}
+
+.services .serv-content .card i {
+    font-size: 50px;
+    color: red;
+    transition: color 0.3s ease;
+}
+
+.services .serv-content .card img {
+    width: 200px;
+    transition: color 0.3s ease;
+}
+
+.services .serv-content .card .text {
+    font-size: 27px;
+    font-weight: 600;
+    margin: 10px 0 7px 0;
+
+}
+
+.services .serv-content .card p {
+    text-align: justify;
+}
+
+.services .serv-content .card .box {
+    transition: all 0.3s ease;
+}
+
+.services .serv-content .card:hover .box {
+    transform: scale(1.05);
+}
+
+.services .serv-content .card:hover {
+    background-color: red;
+}
+
+.services .serv-content .card:hover i {
+    color: white;
+}
+
+/* Responsive Media Query */
+
+
+@media (max-width: 1100px) {
+
+    .services {
+        height: 2000px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .max-width {
+        padding: 0 50px;
+    }
+
+  
+}
+
+@media (max-width: 940px) {
+   
+    .max-width {
+        max-width: 800px;
+    }
+
+   
+}
+
+
+@media (max-width: 690px) {
+    .max-width {
+        padding: 0 23px;
+    }
+
+    .services .serv-content .card {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 580px) {
+
+}
+
+@media (max-width: 500px) {
+    
+}
+
+@media (max-width: 450px) {
+
+}

@@ -1,82 +1,62 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    line-height: normal !important;
+/* About Section Styling */
+
+.about .title::after {
+    content: "Who i am";
 }
 
-html {
-    scroll-behavior: smooth;
+.about .about-content .left {
+    width: 45%;
 }
 
-
-
-/* All Similar Content Styling Code  */
-
-.about,
-.services,
-.skills,
-.team,
-.contact,
-footer {
-    font-family: "Poppins", sans-serif;
+.about .about-content .left img {
+    height: 600px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 6px;
 }
 
-section {
-    padding: 100px 0;
+.about .about-content .right {
+    width: 55%;
+    margin-top: 100px;
 }
 
-.about .about-content .services,
-.serv-content,
-.skills .skills-content,
-.contact,
-.contact-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.about .about-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    height: 70px;
 }
 
-section .title {
-    position: relative;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
-    font-family: "Ubuntu", sans-serif;
-}
-
-section .title::before {
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    width: 200px;
-    height: 3px;
-    background: black;
-    transform: translateX(-50%);
-}
-
-section .title::after {
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    height: 3px;
-    background: white;
-    font-size: 20px;
+.about .about-content .right .text span {
     color: red;
-    padding: 10px;
-    transform: translateX(-50%);
 }
 
+.about .about-content .right p {
+    text-align: justify;
+}
 
+.about .about-content .right a {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 8px 20px;
+    /* font-size: 18px; */
+    margin-top: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: 2px solid red;
+    transition: all 0.3s ease;
+}
 
+.about .about-content .right a:hover {
+    color: red;
+    background: none;
+}
 
-
+.about .about-content {
+    display: flex;
+}
 
 
 /* Responsive Media Query */
@@ -163,6 +143,7 @@ section .title::after {
 
     .navbar .menu li {
         display: block;
+        /* font-size: 19px; */
     }
 
     .navbar .menu li a {

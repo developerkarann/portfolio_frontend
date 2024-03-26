@@ -1,5 +1,6 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
+import './about.css'
 
 
 export default function About() {
@@ -16,7 +17,7 @@ export default function About() {
               <div className="text">
                 I'm Karan Pal and I'm a <span className="typing-2">
                   <Typewriter
-                    words={['JavaScript Developer', 'MERN Stack Developer', 'React Developer', 'Node Developer']}
+                    words={['JavaScript Developer', 'MERN Stack Developer', 'React JS Developer', 'Node JS Developer']}
                     loop={5}
                     cursor
                     cursorStyle='_'
@@ -27,20 +28,19 @@ export default function About() {
                 </span>
               </div>
               <p>
-                Pursuing Bachelor Of Commerce from Hindu College Moradabad with a focus on web development
-                and have gained experience in various technologies such as
-                HTML, CSS, JavaScript, React.js, MongoDB, Express.js, and Node.js.. <br/>
-                I am excited to leverage my knowledge and skills to create robust and
-                responsive web applications using the MERN stack. I'm having a strong foundation in web development concepts and technologies,
-                and I am enthusiastic about learning new skills and staying up-to-date with the latest trends
-                in the industry. <br/>
-                As a fresher, I am committed to working collaboratively with other developers and designers
-                to deliver high-quality web applications that meet the unique needs of each client.
-                I am a quick learner, and I am always willing to go the extra mile to ensure that the
-                project is completed on time and to the highest standards.
+
+                🚀 Full Stack Web Developer with expertise in MERN stack technologies.<br/>
+
+                During a dynamic 6-month internship, I honed my skills in React.js, Node.js, MongoDB, and Express.js, becoming proficient in both frontend and backend development.
+
+                🎨 On the frontend, I excel in crafting captivating user experiences with HTML, CSS, Tailwind CSS, JavaScript, and Redux Toolkit.
+
+                ⚙️ On the backend, I thrive in building robust server-side solutions with Node.js, Express.js, and MongoDB database.
+
+                Passionate about creating seamless, scalable web applications, I bring creativity, problem-solving skills, and a dedication to clean, efficient code to every project I undertake. Let's bring your ideas to life!
 
               </p>
-              <a href="https://drive.google.com/file/d/14d2k17F83G5u5zj4LZlGuxSGv6IySgwV/view?usp=share_link" >Download CV</a>
+              <a href="https://drive.google.com/file/d/1975wmbgZcHaqtJjSsF2_16sbfhq2oFI4/view?usp=sharing" target='_blank' >Download CV</a>
             </div>
           </div>
         </div>

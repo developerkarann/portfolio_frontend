@@ -7,13 +7,14 @@ import Skills from '../Skills/Skills';
 import About from '../About/About'
 import Contact from '../Contact/Contact'
 import ProjectsSection from '../Projects/ProjectsSection';
+import './home.css';
 
 
 export default function Home() {
 
 
   return (
-    <>
+    <div>
       <section className="home" id="home">
         <div className="max-width">
           <div className="home_section">
@@ -30,7 +31,7 @@ export default function Home() {
                 delaySpeed={1000}
               /> <span className="typing"> </span>
               </div>
-              <Link to="/contact">Hire me</Link>
+              <Link to="/contact">Lets connect</Link>
             </div>
             <div className="right_side">
               <div className="box">
@@ -43,11 +44,10 @@ export default function Home() {
       </section>
 
       <About />
-      <Service />
+      <ProjectsSection />
       <Skills />
-      <ProjectsSection/>
+      <Service />
       <Contact />
-
-    </>
+    </div>
   )
 }

@@ -1,82 +1,76 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    line-height: normal !important;
+/* Navbar Styling */
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
 }
 
-html {
-    scroll-behavior: smooth;
+.navbar {
+    background-color: red;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    font-family: "Ubuntu", sans-serif;
+    transition: all 0.03 ease;
 }
 
-
-
-/* All Similar Content Styling Code  */
-
-.about,
-.services,
-.skills,
-.team,
-.contact,
-footer {
-    font-family: "Poppins", sans-serif;
+.navbar.sticky {
+    padding: 15px 0;
+    background-color: red;
 }
 
-section {
-    padding: 100px 0;
-}
-
-.about .about-content .services,
-.serv-content,
-.skills .skills-content,
-.contact,
-.contact-content {
+.navbar .max-width {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
-section .title {
-    position: relative;
-    text-align: center;
-    font-size: 40px;
+.navbar .logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+
+.navbar.sticky .logo a span {
+    color: white;
+}
+
+.navbar .logo a span {
+    color: white;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    display: block;
+    color: white;
+    font-size: 18px;
     font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
-    font-family: "Ubuntu", sans-serif;
+    margin-left: 25px;
+    transition: color 0.3 ease;
 }
 
-section .title::before {
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    width: 200px;
-    height: 3px;
-    background: black;
-    transform: translateX(-50%);
+.navbar .menu li a:hover {
+    border-bottom: 1px solid white;
 }
 
-section .title::after {
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    height: 3px;
-    background: white;
-    font-size: 20px;
-    color: red;
-    padding: 10px;
-    transform: translateX(-50%);
+.navbar.sticky .menu li a:hover {
+    text-decoration: underline;
+    color: white;
 }
 
+/* hamburger */
 
-
-
-
+.menu-btn {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
 
 
 /* Responsive Media Query */
@@ -163,6 +157,7 @@ section .title::after {
 
     .navbar .menu li {
         display: block;
+        /* font-size: 19px; */
     }
 
     .navbar .menu li a {

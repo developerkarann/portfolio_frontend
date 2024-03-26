@@ -1,3 +1,5 @@
+import './skills.css'
+
 export default function Skills() {
     return (
         <>
@@ -28,7 +30,7 @@ export default function Skills() {
                                 any team or project.
                             </p>
                         </div>
-                        <div className="column right">
+                        {/* <div className="column right">
                             <div className="bars">
                                 <div className="info">
                                     <span>HTML</span>
@@ -91,6 +93,83 @@ export default function Skills() {
                                     <span>PHP & MySql</span>
                                     <div className="lines PHP inner_line"></div>
                                     <span><img src="/assets/images/icon/php.png" width="" alt="php custom programming solutions" /></span>
+                                </div>
+                            </div>
+                        </div> */}
+                        <div className="column right">
+                            {/* Frontend Card  */}
+                            <div className="card">
+                                <div className="box">
+                                    <div className="text">
+                                        <i className="fas fa-paint-brush"></i>
+                                        <p> Front-End</p></div>
+                                    <div className="skill_icons">
+                                        <div className="skill_icon">
+                                            <img src="/assets/images/icon/html.png" alt="" />
+                                            <p>HTML</p>
+                                        </div>
+                                        <div className="skill_icon">
+                                            <img src="/assets/images/icon/css.png" alt="" />
+                                            <p>CSS</p>
+                                        </div>
+                                        <div className="skill_icon">
+                                            <img src="/assets/images/icon/javascript.png" alt="" />
+                                            <p>JavaScript</p>
+                                        </div>
+                                        <div className="skill_icon">
+                                            <img src="/assets/images/icon/react.png" alt="" />
+                                            <p>React.js</p>
+                                        </div>
+                                        <div className="skill_icon">
+                                            <img src="/assets/images/icon/tailwind.png" alt="" />
+                                            <p>TailwindCSS</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* Backend Card  */}
+                            <div className="card">
+                                <div className="box">
+                                    <div className="text">
+                                        <i className="fas fa-paint-brush"></i>
+                                        <p> Backend-End</p></div>
+                                    <div className="skill_icons">
+                                        <div className="skill_icon">
+                                            <img src="/assets/images/icon/node.png" alt="" />
+                                            <p>Node.js</p>
+                                        </div>
+                                        <div className="skill_icon">
+                                            <img src="/assets/images/icon/express.png" alt="" />
+                                            <p>Express.js</p>
+                                        </div>
+                                        <div className="skill_icon">
+                                            <img src="/assets/images/icon/mongodb.png" alt="" />
+                                            <p>MongoDb Database</p>
+                                        </div>
+                                        <div className="skill_icon">
+                                            <img src="/assets/images/icon/jwt.png" alt="" />
+                                            <p>JWT Auth</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* Database Card  */}
+                            <div className="card">
+                                <div className="box">
+                                    <div className="text">
+                                        <i className="fas fa-paint-brush"></i>
+                                        <p> Tools</p></div>
+                                    <div className="skill_icons">
+                                        <div className="skill_icon">
+                                            <img src="/assets/images/icon/git.png" alt="" />
+                                            <p>Git</p>
+                                        </div>
+                                        
+                                        <div className="skill_icon">
+                                            <img src="/assets/images/icon/github.png" alt="" />
+                                            <p>Github</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

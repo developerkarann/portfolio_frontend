@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 // import { useNavigate} from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import './contact.css'
 
 
 export default function Contact() {
@@ -87,7 +88,7 @@ export default function Contact() {
                   <i className="fas fa-map-marker-alt"></i>
                   <div className="info">
                     <div className="head">Address</div>
-                    <div className="sub-title">Bilari, Moradabad Up , India</div>
+                    <div className="sub-title">Moradabad, Uttar Pradesh, India</div>
                   </div>
                 </div>
                 <div className="row">
@@ -98,9 +99,11 @@ export default function Contact() {
                   </div>
                 </div>
                 <div className="row">
-                  <a href="https://www.linkedin.com/in/karan-pal-developer/" rel="noreferrer" target='_blank' style={{ marginRight: "25px" }}><i class="fa-brands fa-linkedin"></i></a>
-                  <a href="https://github.com/karanpal03040" target='_blank' rel="noreferrer" style={{ marginRight: "25px" }}><i class="fa-brands fa-github"></i></a>
-                  <a href="https://www.instagram.com/karan_sanatanii/" target='_blank' rel="noreferrer" style={{ marginRight: "25px" }}><i class="fa-brands fa-instagram"></i></a>
+                <i class="fa-solid fa-phone"></i>
+                  <div className="info">
+                    <div className="head">Mobile</div>
+                    <div className="sub-title">+91 886012507</div>
+                  </div>
                 </div>
 
               </div>
