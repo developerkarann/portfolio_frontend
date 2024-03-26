@@ -131,6 +131,9 @@
         margin-top: 1rem;
         width: 2rem;
     }
+    .projects .max-width {
+        padding: 0 60px;
+    }
     
 }
 
@@ -141,6 +144,12 @@
     #card .cardHead .logo img{
         width: 100%;
       }
+      #card .cardBody .desc{
+           font-size: 13px;
+      }
+      .projects .max-width {
+        padding: 0 55px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -152,5 +161,7 @@
 }
 
 @media (max-width: 440px) {
-  
+    #card .cardBody .desc{
+        font-size: 11px;
+   }
 }

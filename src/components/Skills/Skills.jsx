@@ -30,72 +30,7 @@ export default function Skills() {
                                 any team or project.
                             </p>
                         </div>
-                        {/* <div className="column right">
-                            <div className="bars">
-                                <div className="info">
-                                    <span>HTML</span>
-                                    <div className="lines html inner_line" ></div>
-                                    <span><img width="60" height="60" src="/assets/images/icon/html.png" alt="html-5--v1" /></span>
-                                </div>
-                            </div>
-                            <div className="bars">
-                                <div className="info">
-                                    <span>CSS</span>
-                                    <div className="lines css inner_line"></div>
-                                    <span><img width="60" height="60" src="/assets/images/icon/css.png" alt="css3" /></span>
-                                </div>
-                            </div>
-                            <div className="bars">
-                                <div className="info">
-                                    <span>JavaScript</span>
-                                    <div className="lines javascript inner_line"></div>
-                                    <span><img width="60" height="60" src="/assets/images/icon/javascript.png" alt="javascript--v1" /></span>
-                                </div>
-                            </div>
-                            <div className="bars">
-                                <div className="info">
-                                    <span>React.js</span>
-                                    <div className="lines React inner_line"></div>
-                                    <span><img width="50" height="50" src="/assets/images/icon/react.png" alt="react" /></span>
-                                </div>
-                            </div>
-                            <div className="bars">
-                                <div className="info">
-                                    <span>Node.js</span>
-                                    <div className="lines Node inner_line"></div>
-                                    <span><img src="/assets/images/icon/node.png" width="60" alt="javascript nodejs logo" /></span>
-                                </div>
-                            </div>
-
-                            <div className="bars">
-                                <div className="info">
-                                    <span>Express.js</span>
-                                    <div className="lines Express inner_line"></div>
-                                    <span><img src="/assets/images/icon/express.png" width="60" alt="javascript nodejs logo" /></span>
-                                </div>
-                            </div>
-                            <div className="bars">
-                                <div className="info">
-                                    <span>MongoDB</span>
-                                    <div className="lines MongoDB inner_line"></div>
-                                    <span><img width="60" height="60" src="/assets/images/icon/mongodb.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo" /></span>
-                                </div>
-                            </div>
-                            <div className="bars">
-                                <div className="info">
-                                    <span>Github & Git</span>
-                                    <div className="lines Github inner_line"></div>
-                                    <span><img width="50" height="50" src="/assets/images/icon/github.png" alt="github" /></span>
-                                </div>
-                            </div>
-                            <div className="bars">
-                                <div className="info">
-                                    <span>PHP & MySql</span>
-                                    <div className="lines PHP inner_line"></div>
-                                    <span><img src="/assets/images/icon/php.png" width="" alt="php custom programming solutions" /></span>
-                                </div>
-                            </div>
-                        </div> */}
+                    
                         <div className="column right">
                             {/* Frontend Card  */}
                             <div className="card">
