@@ -55,19 +55,19 @@ export default function ProjectsSection() {
                 <div className="max-width">
                     <h2 className="title">My Projects</h2>
 
-                    <div class="container">
+                    <div className="container">
                         {
 
                             ProjectsData.map((value, index) => {
                                 return (
 
-                                    <div id="card">
-                                        <div class="cardHead">
-                                            <div class="logo">
+                                    <div id="card" key={index}>
+                                        <div className="cardHead">
+                                            <div className="logo">
                                                 <img src={value.img} alt="" />
                                             </div>
                                         </div>
-                                        <div class="cardBody">
+                                        <div className="cardBody">
                                             <h2>
                                                 {value.title}
                                             </h2>
@@ -89,8 +89,8 @@ export default function ProjectsSection() {
                                                 </div>
                                             }
                                             <div className="live_links">
-                                                <a href={`/${value.github}`}> <i class="fa-solid fa-code"></i> Source Code </a>
-                                                <a href={`/${value.link}`}> <i class="fa-solid fa-eye"></i> Live Preview</a>
+                                                <a href={value.github} target='_blank'> <i className="fa-solid fa-code"></i> Source Code </a>
+                                                <a href={value.link} target='_blank'> <i className="fa-solid fa-eye"></i> Live Preview</a>
                                             </div>
                                         </div>
                                     </div>
