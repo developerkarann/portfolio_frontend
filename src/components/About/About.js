@@ -11,13 +11,13 @@ export default function About() {
           <h2 className="title">About Me</h2>
           <div className="about-content">
             <div className="column left">
-              <img src="/assets/images/picture.jpg" alt="" />
+              <img src="/assets/images/picture.png" alt="Profile picture" />
             </div>
             <div className="column right">
               <div className="text">
                 I'm Karan Pal and I'm a <span className="typing-2">
                   <Typewriter
-                    words={['JavaScript Developer', 'MERN Stack Developer', 'React JS Developer', 'Node JS Developer']}
+                    words={['Software Developer', 'MERN Stack Developer', 'React Developer', 'JavaScript Developer']}
                     loop={5}
                     cursor
                     cursorStyle='_'
@@ -40,7 +40,7 @@ export default function About() {
                 Passionate about creating seamless, scalable web applications, I bring creativity, problem-solving skills, and a dedication to clean, efficient code to every project I undertake. Let's bring your ideas to life!
 
               </p>
-              <a href="https://drive.google.com/file/d/1975wmbgZcHaqtJjSsF2_16sbfhq2oFI4/view?usp=sharing" target='_blank' >Download CV</a>
+              <a href="https://drive.google.com/file/d/1IlyuvQxp4CuRiz42Ex1i8ebF-4pi53RK/view?usp=drive_link" target='_blank' >Download CV</a>
             </div>
           </div>
         </div>

@@ -1,8 +1,7 @@
-
 .projects {
     background: black;
     color: white;
-    height: 85rem;
+    height: 100rem;
 }
 
 .projects .title::before {
@@ -66,8 +65,7 @@
 }
 #card .cardBody .technology img{
     margin: 0 1rem;
-    margin-top: 1rem;
-    width: 2.5rem;
+    width: 2rem;
 }
 #card .cardBody .live_links{
     margin: 1rem 0 0.5rem 0;
@@ -99,8 +97,8 @@
 @media (max-width: 1100px) {
     
     .projects {
-        min-height: 150rem;
-        max-height: 200rem;
+        min-height: 140rem;
+        max-height: 250rem;
     }
     .projects .container {
         width: 400px;

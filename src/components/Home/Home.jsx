@@ -22,7 +22,7 @@ export default function Home() {
               <div className="text-1">Hello , my self</div>
               <div className="text-2">Karan Pal</div>
               <div className="text-3">And I'm a <Typewriter
-                words={['JavaScript Developer', 'MERN Stack Developer', 'React Developer', 'Node Developer']}
+                words={['Software Developer', 'MERN Stack Developer', 'React Developer', 'JavaScript Developer']}
                 loop={5}
                 cursor
                 cursorStyle='_'
@@ -31,12 +31,12 @@ export default function Home() {
                 delaySpeed={1000}
               /> <span className="typing"> </span>
               </div>
-              <Link to="/contact">Lets connect</Link>
+              <Link to="/contact">Hire Me</Link>
             </div>
             <div className="right_side">
               <div className="box">
                 <div className="border"></div>
-                <img src="/assets/images/krn.jpg" alt="" />
+                <img src="/assets/images/profile.jpg" alt="" />
               </div>
             </div>
           </div>
