@@ -19,7 +19,7 @@ export default function Home() {
         <div className="max-width">
           <div className="home_section">
             <div className="home-content">
-              <div className="text-1">Hello , my self</div>
+              <div className="text-1">Hello , myself</div>
               <div className="text-2">Karan Pal</div>
               <div className="text-3">And I'm a <Typewriter
                 words={['Software Developer', 'MERN Stack Developer', 'React Developer', 'JavaScript Developer']}
