@@ -39,6 +39,15 @@ export default function ProjectsSection() {
             tech: 'mern'
         },
         {
+            title: 'CreatorsFlame - Crowd Funfing Platform',
+            tech: ' ',
+            description: "",
+            img: '/assets/images/projects/creatorsflame.png',
+            link: 'https://creatorsflame.vercel.app/',
+            github: 'https://github.com/developerkarann/CreatorsFlame',
+            tech: 'next'
+        },
+        {
             title: 'MySpotify - Music App',
             description: "MySpotify is a music streaming website which provide sevaral playlist accrouding to the mood by them user can listen songs without dowanload them and without any intruption. This project is build in HTMl, CSS and JavaScript",
             img: '/assets/images/projects/spotify.png',
@@ -78,7 +87,6 @@ export default function ProjectsSection() {
                                             <h2>
                                                 {value.title}
                                             </h2>
-                                            {/* <p className='desc'>{value.description}</p> */}
                                             {
                                                 value.tech === 'mern' ?
                                                     <div className='technology'>
@@ -93,6 +101,17 @@ export default function ProjectsSection() {
                                                         <img src="/assets/images/icon/javascript.png" alt="" />
                                                     </div>
                                             }
+                                            {
+                                                value.tech === 'next' ?
+                                                    <div className='technology'>
+                                                        <img src="/assets/images/icon/nextjs.png" alt=""/>
+                                                        <img src="/assets/images/icon/nextauth.png" alt=""/>
+                                                    </div> :
+                                                    <div className='technology'>
+
+                                                    </div>
+                                            }
+
                                             <div className="live_links">
                                                 <a href={value.github} target='_blank'> <i className="fa-solid fa-code"></i> Github </a>
                                                 <a href={value.link} target='_blank'> <i className="fa-solid fa-eye"></i> Live Preview</a>

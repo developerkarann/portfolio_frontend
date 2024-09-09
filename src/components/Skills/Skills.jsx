@@ -70,6 +70,10 @@ export default function Skills() {
                                         <p> Backend-End</p></div>
                                     <div className="skill_icons">
                                         <div className="skill_icon">
+                                            <img src="/assets/images/icon/nextjs.png" alt="" />
+                                            <p>Next.js</p>
+                                        </div>
+                                        <div className="skill_icon">
                                             <img src="/assets/images/icon/node.png" alt="" />
                                             <p>Node.js</p>
                                         </div>

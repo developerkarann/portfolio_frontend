@@ -1,7 +1,7 @@
 .projects {
     background: black;
     color: white;
-    height: 100rem;
+    height: 125rem;
 }
 
 .projects .title::before {
@@ -33,12 +33,7 @@
     border-radius: 10px;
     padding: 10px;
 }
-#card .cardHead{
 
-}
-#card .cardHead .logo{
- 
-}
 #card .cardHead .logo img{
   width: 35rem;
 }
@@ -97,7 +92,7 @@
 @media (max-width: 1100px) {
     
     .projects {
-        min-height: 140rem;
+        min-height: 205rem;
         max-height: 250rem;
     }
     .projects .container {
@@ -132,7 +127,6 @@
     .projects .max-width {
         padding: 0 60px;
     }
-    
 }
 
 @media (max-width: 550px) {
@@ -147,6 +141,10 @@
       }
       .projects .max-width {
         padding: 0 55px;
+    }
+    .projects {
+        min-height: 165rem;
+        max-height: 250rem;
     }
 }
 

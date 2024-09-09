@@ -40,7 +40,7 @@ export default function About() {
                 Passionate about creating seamless, scalable web applications, I bring creativity, problem-solving skills, and a dedication to clean, efficient code to every project I undertake. Let's bring your ideas to life!
 
               </p>
-              <a href="https://drive.google.com/file/d/1IlyuvQxp4CuRiz42Ex1i8ebF-4pi53RK/view?usp=drive_link" target='_blank' >Download CV</a>
+              <a href="https://drive.google.com/file/d/1GkXsMM3ngYZ7OtuDwIP5jv6KI-2BBte7/view?usp=drive_link" target='_blank' >Download CV </a>
             </div>
           </div>
         </div>
