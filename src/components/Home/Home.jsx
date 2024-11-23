@@ -36,7 +36,7 @@ export default function Home() {
             <div className="right_side">
               <div className="box">
                 <div className="border"></div>
-                <img src="/assets/images/profile.jpg" alt="" />
+                <img src="/assets/images/picture.png" alt="" />
               </div>
             </div>
           </div>
